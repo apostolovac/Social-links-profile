@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:wght@100..900&family=Noto+Sans+JP:wght@100..900&family=Outfit:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+
+:root {
+    --color-primary: #ffffff;
+    --color-secondary: #333333;
+    --color-third: #1f1f1f;
+    --color-fourth: #141414;
+    --color-fifth: #c5f82a;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-fourth);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--color-third);
+    height: 500px;
+    width: 300px;
+    margin-top: 33px;
+    border-radius: 12px;
+}
+
+.profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+.profile h1 {
+    margin-top: 0;
+    margin-bottom: 2px;
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--color-primary);
+}
+
+.profile p {
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #666;
+    margin-top: 10px;
+    color: var(--color-primary);
+}
+
+.profile .first {
+    margin-top: 0;
+    color: var(--color-fifth);
+    font-weight: 700;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+    width: 270px;
+}
+
+
+.social-links a {
+    text-decoration: none;
+    color: var(--color-primary);
+    margin: 0px;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: var(--color-secondary);
+    font-weight: 600;
+}
+
+.social-links a:hover {
+    color: var(--color-fourth);
+    background-color: var(--color-fifth);
+}
+
+.attribution {
+    font-size: 14px;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: #000000;
+}
